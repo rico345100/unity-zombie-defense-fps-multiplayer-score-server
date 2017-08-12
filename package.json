@@ -1,0 +1,34 @@
+{
+  "name": "fps-game-mp-serv",
+  "version": "1.0.0",
+  "description": "Simple Zombie Defence Multiplayer Scoring Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rico345100/unity-zombie-defense-fps-multiplayer-score-server"
+  },
+  "keywords": [
+    "unity",
+    "zombie",
+    "defence",
+    "scoring",
+    "server"
+  ],
+  "author": ".modernator",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "co": "^4.6.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "mongodb": "^2.2.30",
+    "morgan": "^1.8.2",
+    "redis": "^2.7.1"
+  }
+}
