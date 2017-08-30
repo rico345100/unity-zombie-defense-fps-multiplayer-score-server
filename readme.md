@@ -40,6 +40,14 @@ $ sudo npm install -g pm2
 $ pm2 start server.js --name "ZombieScoreServer"
 ```
 
+### Ok, just show me how
+Ok, well.. Here's the video how to:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eimqfonYaF8/0.jpg)](https://www.youtube.com/watch?v=eimqfonYaF8)
+
+Click the above image to redirect to youtube.
+
+
 ### About authentication
 Authentication system is just really simple, because it's focused on implementation, not for product ready state.
 When user logged in, server returns string token, and it saves into the server's local memory(Redis).
